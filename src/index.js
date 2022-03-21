@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 // import './index.css';
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
-import EffectClass from './react1'
+// import EffectClass from './react1'
+import EffectClass from './react3'
 
 ReactDOM.render(
   <EffectClass/>,
