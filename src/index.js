@@ -4,10 +4,10 @@ import ReactDOM from 'react-dom';
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
 // import EffectClass from './react1'
-import EffectClass from './react3'
+import EffectFunc from './react3'
 
 ReactDOM.render(
-  <EffectClass/>,
+  <EffectFunc/>,
   document.getElementById('root')
 );
 

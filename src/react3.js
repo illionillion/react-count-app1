@@ -19,10 +19,15 @@ const EffectFunc = () => {
         lastName: '',
         firstName: ''
     })
+    // 第二引数のcountが更新されたら動く
     useEffect(()=>{
         document.title=`${count}回クリックされました`
         console.log('再レンダーされました');
     },[count])
+
+    useEffect(() => {
+        console.log(name);
+    }, [name])
 
     return (
         <>
